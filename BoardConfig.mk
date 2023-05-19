@@ -7,6 +7,9 @@
 
 DEVICE_PATH := device/samsung/a32x
 
+# Idk what this does but it allows the code to compile
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -52,7 +55,7 @@ TARGET_KERNEL_CONFIG := a32x_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a32x
 
 # Kernel - prebuilt
-TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_FORCE_PREBUILT_KERNEL := false
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
