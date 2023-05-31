@@ -1,10 +1,4 @@
-# Android device tree for samsung SM-A326B (a32x)
+# TWRP Device Tree for Samsung A32 5G (a32x/A326B)
 
-```
-#
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
+This is purely a working TWRP Device Tree for a Samsung a32x/A326B. <br>
+This is a dependency for the repository Goldenkrew3000/twrp_samsung_a32x
